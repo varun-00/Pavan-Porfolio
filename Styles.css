@@ -48,6 +48,7 @@ body {
     padding: 15px 0;
     z-index: 1000;
     transition: background-color 0.3s ease;
+    overflow-x: auto;
   }
   
   header nav ul {
@@ -262,7 +263,8 @@ body {
 
 /* Hero Section with Abstract Data Flow Background */
 #hero {
-    background: url('your-abstract-data-flow-image.jpg') no-repeat center center;
+    position: relative;
+    background-image: url('assets/sample_image.jpg');
     background-size: cover;
     color: white;
     padding: 80px 0; /* Padding for compactness */
@@ -331,7 +333,7 @@ body {
   }
   #hero {
     position: relative;
-    background: url('your-background-image.jpg') no-repeat center center;
+    background-image: url('assets/sample_image.jpg');
     background-size: cover;
     height: 300px;
     display: flex;
