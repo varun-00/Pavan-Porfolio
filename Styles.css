@@ -274,7 +274,7 @@ body {
     flex-direction: column;
     box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
     border-bottom: 2px solid #fff;
-    background-blur: 10px; /* Optional blur effect for a more modern feel */
+    /* background-blur: 10px; Optional blur effect for a more modern feel */
   }
   
   #hero h1 {
